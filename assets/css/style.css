@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+body{
+	font-family: 'Helvetica', sans-serif;
+	background-image: url(../docs/image/fondowhatsapp.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+/*lado izquierdo*/
+div.cajachica{
+	background-color: #eeeeee;
+	height: 94vh;
+    margin-top: 28px;
+    border: 0.5px solid gray;
+}
+div.cajagrande{
+	background-color: #eeeeee;
+	height: 94vh;
+    margin-top: 28px;
+    border: 0.5px solid gray;
+}
+div.cajauno, .cajados, .cajatres, .cajacuatro, .cajacinco, .cajaseis, .cajasiete, .cajaocho, .cajanueve{
+	background-color: #fff;
+	height: 72.7px;
+	width: 109%;
+	margin-left: -15px;
+	border: 0.0001em solid #cbcbcb;
+}
+div.cajauno{
+	background-color: #eeeeee;
+}
+div.fotoperfil{
+	height: 30px;
+    width: 30px;
+    background-image: url(../docs/image/gian.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    margin: 0 auto;
+    padding: 28px;
+    margin-left: 12px;
+    margin-top: 10px;
+    position: relative;
+}
+
+i.fa.fa-ellipsis-v {
+    color: gray;
+    font-size: 26px;
+    margin-left: 366px;
+    margin-top: -37px;
+    z-index: 1000;
+    position: absolute;
+}
+i.fa.fa-address-card {
+    color: gray;
+    font-size: 26px;
+    margin-left: 330px;
+    margin-top: -37px;
+    z-index: 1000;
+    position: absolute;
+}
+div.cajatres, .cajacuatro, .cajacinco, .cajaseis, .cajasiete, .cajaocho, .cajanueve{
+	padding: 15px;
+}
+img.logochat{
+	width: 42px;  
+}
+input.buscar{
+	margin: 0 auto;
+    text-align: center;
+    margin-left: 47px;
+    border: 1px solid gray;
+    width: 278px;
+    margin-top: 20px;
+    height: 32px;
+    border-radius: 6px;
+}
+
+/*lado derecho*/
+div.cajaderechauno{
+	background-color: #eeeeee;
+	width: 105%;
+	height: 72.7px;
+	border: 0.0001em solid #cbcbcb;
+	margin-left: -16px;
+}
+div.cajaderechados{
+	background-color: #ede9e4;
+	width: 105%;
+	height: 73vh;
+	border: 0.0001em solid #cbcbcb;
+	margin-left: -16px;
+}
+div.cajaderechatres{
+	background-color: #eeeeee;
+	width: 105%;
+	height: 72.7px;
+	border: 0.0001em solid #cbcbcb;
+	margin-left: -16px;
+}
+div.fp2{
+    background-image: url(../docs/image/logocodeacademy.png);
+    display: inline-block;
+}
+p.titulofp2{
+	display: inline-block;
+	position: absolute;
+	z-index: 1000;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+p.miembros{
+	display: inline-block;
+	position: absolute;
+	z-index: 1000;
+	margin-top: 45px;
+	margin-left: 10px;
+	font-size: 13px;
+}
+i.fa.fa-ellipsis-v.puntitos {
+    margin-top: 27px;
+    margin-left: 425px;
+}
+i.fa.fa-ellipsis-v.puntitos {
+    margin-top: 27px;
+    margin-left: 525px;
+}
+i.fa.fa-paperclip.clip{
+	color: gray;
+    font-size: 26px;
+    margin-top: 27px;
+    margin-left: 480px;
+    z-index: 1000;
+    position: absolute;
+}
+input.mensajechat{
+	width: 80%;
+	height: 40px;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+i.fa.fa-smile-o {
+    color: gray;
+    font-size: 22px;
+    margin-left: 28px;
+}
+i.fa.fa-microphone {
+    color: gray;
+    font-size: 22px;
+    margin-left: 10px;
+}
+div.textoventana{
+	background-color: #dcf8c6;
+	width: 30%;
+	padding: 10px;
+	margin-left: 360px;
+	margin-right: 20px;
+	margin-top: 20px;
+	border-radius: 6px;
+}
