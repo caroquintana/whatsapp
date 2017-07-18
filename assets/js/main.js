@@ -13,10 +13,8 @@ $(document).ready(function() {
     		e.preventDefault();
     		var microphone = $('input.mensajechat').val();
     	$('div.cajaderechados').append('<div class="textoventana"><p>' + localStorage.getItem("microphone") + '</p>');
-        $('input.mensajechat').val('');
-    
+        $('input.mensajechat').val(''); 
   }
-
   $("input.mensajechat").keydown(addTodoItem);
 
 });
